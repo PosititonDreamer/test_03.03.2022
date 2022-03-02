@@ -1,0 +1,72 @@
+.table__element {
+    margin-bottom: 5px;
+    width: 45vw;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+.table__element-add {
+    border-bottom: none;
+}
+button, input {
+    max-height: 19px;
+}
+input {
+    width: 200px;
+    border: 1px solid black;
+    margin-right: 5px;
+    outline: none;
+}
+button {
+    width: 100px;
+    text-align: center;
+    outline: none;
+    margin-right: 5px;
+}
+.button__add {
+    background: green;
+    border: 1px solid green;
+    color: white;
+    cursor: pointer;
+}
+.button__update {
+    background: orange;
+    border: 1px solid orange;
+    color: white;
+    cursor: pointer;
+}
+.button__update-active {
+    background: yellowgreen;
+    border: 1px solid yellowgreen;
+    color: white;
+    cursor: pointer;
+}
+.button__delete {
+    background: red;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+}
+.people__element {
+    display: flex;
+}
+form {
+    display: flex;
+}
+.form__input {
+    border: 1px solid transparent;
+}
+.form__input-active {
+    border-color: black;
+}
+.form__element {
+    display: block;
+}
+.error {
+    width: 200px;
+    color: red;
+    display: none;
+    font-size: 14px;
+}
+.error_display {
+    display: block;
+}
